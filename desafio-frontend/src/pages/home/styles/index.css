@@ -34,8 +34,10 @@ button {
   padding: 32px 24px;
 }
 
-#logo {
-  /* background: url(--logo-src); */
+#root header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 div.navers {
