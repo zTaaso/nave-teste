@@ -1,0 +1,90 @@
+:root {
+  --body-bg: #fff;
+  --body-color: #000;
+  --logo-src: '../../../assets/logo.png';
+}
+
+.dark-mode:root {
+  --body-bg: #212529;
+  --body-color: #bebebe;
+  --logo-src: 'https://nave.rs/static/a534b1a1b091cca710d559ef070e9711/3d1ac/logo-white.png';
+}
+
+html {
+  background-color: var(--body-bg);
+  color: var(--body-color);
+}
+html,
+body,
+#root {
+  margin: 0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+button {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#root {
+  padding: 32px 24px;
+}
+
+#logo {
+  /* background: url(--logo-src); */
+}
+
+div.navers {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+div.navers h1 {
+  font-size: 40px;
+  line-height: 48px;
+  margin-left: 16px;
+}
+
+div.cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.card {
+  height: 342px;
+
+  display: flex;
+  flex: 1 0 20%;
+  flex-direction: column;
+  align-self: flex-start;
+
+  padding: 0px 16px;
+  margin-bottom: 40px;
+}
+
+div.card img {
+  min-width: 280px;
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  min-height: 280px;
+  margin-bottom: 15px;
+}
+
+div.card b {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+div.card span {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
