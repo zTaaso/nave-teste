@@ -1,13 +1,11 @@
 :root {
   --body-bg: #fff;
   --body-color: #000;
-  --logo-src: '../../../assets/logo.png';
 }
 
 .dark-mode:root {
   --body-bg: #212529;
   --body-color: #bebebe;
-  --logo-src: 'https://nave.rs/static/a534b1a1b091cca710d559ef070e9711/3d1ac/logo-white.png';
 }
 
 html {
@@ -54,9 +52,9 @@ div.navers h1 {
 }
 
 div.cards {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-self: center;
 }
 
 div.card {
@@ -72,8 +70,7 @@ div.card {
 }
 
 div.card img {
-  min-width: 280px;
-  max-width: 400px;
+  max-width: 500px;
   width: 100%;
   height: auto;
   min-height: 280px;
@@ -89,4 +86,39 @@ div.card span {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
+}
+
+/* Para telas menores que 600px */
+@media (max-width: 600px) {
+  div.cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Para telas maiores que 600px */
+@media (min-width: 600px) {
+  div.cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Para telas maiores que 900px */
+@media (min-width: 900px) {
+  div.cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Para telas maiores que 1100px */
+@media (min-width: 1100px) {
+  div.cards {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Para telas maiores que 1800px */
+@media (min-width: 1800px) {
+  div.cards {
+    grid-template-columns: repeat(5, 1fr);
+  }
 }
