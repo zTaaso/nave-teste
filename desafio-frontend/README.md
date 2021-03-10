@@ -4,7 +4,7 @@ Aqui você encontra o repositório onde eu realizei o desafio [front-end](https:
 
 ## Sobre
 
-Neste projeto, desenvolvi um website básico contendo uma tela em que o usuário pode ver uma lista de _navers_.
+Neste projeto, desenvolvi um website utilizando Javascript, HTML e CSS puros, contendo uma tela em que o usuário pode ver uma lista de _navers_.
 
 ### Demonstração
 
