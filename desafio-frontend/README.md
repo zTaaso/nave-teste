@@ -15,4 +15,6 @@ O layout do figma também pode ser acessado [aqui](%28https://www.figma.com/file
 
 ![demonstração.gif](https://github.com/zTaaso/nave-teste/blob/master/desafio-frontend/assets/navers-frontend-demo.gif)
 
+<hr />
+
 Made with ♥, by [Thiago Afonso](https://linkedin.com/in/ztaaso) - 2021.
