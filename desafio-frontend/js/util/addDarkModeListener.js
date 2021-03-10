@@ -3,7 +3,7 @@ const addDarkModeListener = () => {
   const html = document.querySelector('html');
   const logo = {
     img: document.querySelector('#logo'),
-    white_src: '../../../assets/logo.png',
+    white_src: './assets/logo.png',
     dark_src:
       'https://nave.rs/static/a534b1a1b091cca710d559ef070e9711/3d1ac/logo-white.png',
   };
