@@ -1,6 +1,6 @@
 # Desafio de Front-end 👨‍💻
 
-Aqui você encontra o repositório onde eu realizei o desafio [front-end](https://github.com/naveteam/teste-estagio-2020#desafio-de-front-end) do teste de estágio da [Nave.rs](nave.rs)!
+Aqui você encontra o repositório onde eu realizei o desafio [front-end](https://github.com/naveteam/teste-estagio-2020#desafio-de-front-end) do teste de estágio da [Nave.rs](https://nave.rs)!
 
 ## Sobre
 
