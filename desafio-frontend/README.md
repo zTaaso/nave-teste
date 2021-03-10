@@ -8,10 +8,10 @@ Neste projeto, desenvolvi um website utilizando Javascript, HTML e CSS puros, co
 
 ### Demonstração
 
-Quer ver o site com os seus próprios olhos? Sem problemas!
+Quer ver o site com os seus próprios olhos? Sem problemas! <br/>
 Hospedei o site através do [github-pages](https://pages.github.com/) e você pode acessá-lo [clicando aqui](https://ztaaso.github.io/nave-teste/desafio-frontend/).
 
-O layout do figma também pode ser acessado [aqui](%28https://www.figma.com/file/2qJLqFk0DNCR89vZ1P3wMu/Teste-Fornt-End---Estagio?node-id=0:1%29).
+O layout do figma também pode ser [acessado aqui](https://www.figma.com/file/2qJLqFk0DNCR89vZ1P3wMu/Teste-Fornt-End---Estagio?node-id=0:1%29).
 
 ![demonstração.gif](https://github.com/zTaaso/nave-teste/blob/master/desafio-frontend/assets/navers-frontend-demo.gif)
 
