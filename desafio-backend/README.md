@@ -1,4 +1,5 @@
 
+
 # 👨🏻‍💻 Desafio Back-end
 
 Aqui você encontra o repositório responsável pelo código do desafio [back-end](https://github.com/naveteam/teste-estagio-2020#desafio-de-back-end) do teste de estágio da [Nave.rs](https://nave.rs)!
@@ -62,8 +63,6 @@ Informações detalhadas de rotas e exemplos de requisições e respostas.
       "job_role": "Estagiário Back-end",
       "birthdate": 1046314800000,
       "admission_date": 1616209200000,
-      "created_at": "2021-03-11 02:53:03",
-      "updated_at": "2021-03-11 02:53:03"
     }
   ]
   ```
@@ -78,28 +77,27 @@ Informações detalhadas de rotas e exemplos de requisições e respostas.
   | :----------- | :-------- | :---------------------------------------------- |
   | `timestamps` | `boolean` | Caso igual a `true`, inclui timestamps ao naver |
 
-	 <br/>
-        
+	<br/>
+       
    - Exemplo de resposta:
    
-	  	```json
+		```json
 	    {
-	        "id": "da1d9f4e-91d0-4c5e-9671-e3c465e8bdcc",
-	        "name": "Thiago Afonso",
-	        "job_role": "Estagiário Back-end",
-	        "birthdate": 1046314800000,
-	        "admission_date": 1616209200000,
-	        "created_at": "2021-03-11 02:53:03",
-	        "updated_at": "2021-03-11 02:53:03",
-	        "projects": [
-	          {
-	            "id": "179668c1-dbc8-4a84-abb3-3f1ca80ffb35",
-	            "name": "Desenvolvimento de API REST",
-	            "created_at": "2021-03-11 02:53:03",
-	            "updated_at": "2021-03-11 02:53:03"
-	          }
+			"id": "da1d9f4e-91d0-4c5e-9671-e3c465e8bdcc",
+			"name": "Thiago Afonso",
+			"job_role": "Estagiário Back-end",
+			"birthdate": 1046314800000,
+			"admission_date": 1616209200000,
+			"projects": [
+			  {
+			    "id": "179668c1-dbc8-4a84-abb3-3f1ca80ffb35",
+			    "name": "Desenvolvimento de API REST",
+			    "created_at": "2021-03-11 02:53:03",
+			    "updated_at": "2021-03-11 02:53:03"
+			  }
+			]
 	    }
-	  	```
+		```
 
 - **Store**: Rota de criação de naver
 
@@ -139,3 +137,89 @@ Informações detalhadas de rotas e exemplos de requisições e respostas.
       "updated_at": "2021-03-11 08:03:15"
     }
     ```
+
+### Projetos
+
+- **Index**: Rota para listagem de projetos.
+
+  ```bash
+  GET http://localhost:3333/projects
+  ```
+
+  | Parâmetro    | Tipo      | Descrição                                         |
+  | :----------- | :-------- | :------------------------------------------------ |
+  | `timestamps` | `boolean` | Caso igual a `true`, inclui timestamps aos projetos|
+
+  Exemplo de resposta:
+
+  ```json
+  [
+	{
+	    "id": "fbe98fff-5a61-44ee-9c04-a992e22e7c56",
+	    "name": "Criação de nova página no website"
+	}
+  ]
+  ```
+
+- **Show**: Rota para detalhar informações de um único projeto através de seu identificador.
+
+  ```bash
+  GET http://localhost:3333/project/:id
+  ```
+
+  | Parâmetro    | Tipo      | Descrição                                       |
+  | :----------- | :-------- | :---------------------------------------------- |
+  | `timestamps` | `boolean` | Caso igual a `true`, inclui timestamps ao projeto|
+
+	 <br/>
+       
+   - Exemplo de resposta:
+	  	```json
+	    {
+		  "id": "179668c1-dbc8-4a84-abb3-3f1ca80ffb35",
+		  "name": "Desenvolvimento de API REST",
+		  "navers": [
+		    {
+		      "id": "da1d9f4e-91d0-4c5e-9671-e3c465e8bdcc",
+		      "name": "Thiago Afonso",
+		      "job_role": "Estagiário Back-end",
+		      "birthdate": 1046314800000,
+		      "admission_date": 1616209200000,
+		      "created_at": "2021-03-11 02:53:03",
+		      "updated_at": "2021-03-11 02:53:03"
+		    }
+		 ]
+	   }
+	 
+	  	```
+
+- **Store**: Rota de criação de projeto
+
+  ```bash
+  POST http://localhost:3333/project
+  ```
+
+  - Exemplo de requisição:
+
+    ```json
+	 {
+		"name": "Aplicativo Mobile",
+		"navers": [1, 6]
+	}
+
+    ```
+
+    | Propriedade      | Tipo     | Descrição                            |
+    | :--------------- | :------- | :----------------------------------- |
+    | `name`           | `string` | Nome do  projeto                 |
+    | `navers`       | `array`  | Vetor de ids dos navers envolvidos |
+
+  - Exemplo de resposta:
+	   ```json
+	   {
+		  "id": "809eac3c-705b-4f86-a931-8fda4170d760",
+		  "name": "Aplicativo Mobile",
+		  "created_at": "2021-03-11 09:03:50",
+		  "updated_at": "2021-03-11 09:03:50"
+	}
+	   ```
