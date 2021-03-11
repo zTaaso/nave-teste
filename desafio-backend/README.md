@@ -81,7 +81,7 @@ Informações detalhadas de rotas e exemplos de requisições e respostas.
         
    - Exemplo de resposta:
   	```json
-  {
+    {
         "id": "da1d9f4e-91d0-4c5e-9671-e3c465e8bdcc",
         "name": "Thiago Afonso",
         "job_role": "Estagiário Back-end",
@@ -96,7 +96,9 @@ Informações detalhadas de rotas e exemplos de requisições e respostas.
             "created_at": "2021-03-11 02:53:03",
             "updated_at": "2021-03-11 02:53:03"
           }
-   }
+    }
+          
+   
   	```
 
 - **Store**: Rota de criação de naver
