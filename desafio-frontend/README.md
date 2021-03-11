@@ -15,6 +15,14 @@ O layout do figma também pode ser [acessado aqui](https://www.figma.com/file/2q
 
 ![demonstração.gif](https://github.com/zTaaso/nave-teste/blob/master/desafio-frontend/assets/navers-frontend-demo.gif)
 
+### Rodar a aplicação
+> **Obs:** _(É preciso ter o node instalado)_
+
+Para fazer o site funcionar adequadamente na sua máquina é bem simples:
+ 
+Depois de baixar o repositório, abra a linha de comando na pasta raiz do projeto e rode o comando <code>npx serve</code>. Depois disso é só aguardar alguns segundos e o site estará disponível em http://localhost:5000! 
+
+
 <hr />
 
 Made with ♥, by [Thiago Afonso](https://linkedin.com/in/ztaaso) - 2021.
