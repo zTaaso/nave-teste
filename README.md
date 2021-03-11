@@ -1,6 +1,6 @@
 # 👨‍💻 Teste de estágio - Nave.rs
 
-[Repositório do codesandbox](https://codesandbox.io/s/teste-estagio-template-forked-7vsjk) contendo os desafios de lógica.
+[Repositório do codesandbox](https://codesandbox.io/s/teste-estagio-template-forked-7vsjk) com o [site](https://7vsjk.csb.app/) contendo os desafios de lógica.
 
 <hr />
 
