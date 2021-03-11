@@ -1,4 +1,4 @@
-# Desafio de Front-end 👨‍💻
+# Desafio de Front-end 🖼
 
 Aqui você encontra o repositório onde eu realizei o desafio [front-end](https://github.com/naveteam/teste-estagio-2020#desafio-de-front-end) do teste de estágio da [Nave.rs](https://nave.rs)!
 
@@ -20,7 +20,7 @@ O layout do figma também pode ser [acessado aqui](https://www.figma.com/file/2q
 
 Para fazer o site funcionar adequadamente na sua máquina é bem simples:
  
-Depois de baixar o repositório, abra a linha de comando na pasta raiz do projeto e rode o comando <code>npx serve</code>. Depois disso é só aguardar alguns segundos e o site estará disponível em http://localhost:5000! 
+Depois de baixar o repositório, abra a linha de comando na pasta raiz do projeto e rode o comando <code>npx serve</code>. Depois disso é só aguardar alguns segundos e o site estará disponível (por padrão) em http://localhost:5000! 
 
 
 <hr />
