@@ -1,7 +1,7 @@
-### Exercícios de Lógica
+# 👨‍💻 Teste de estágio - Nave.rs
 
-[Repositório do sandbox](https://codesandbox.io/s/teste-estagio-template-forked-7vsjk)
+[Repositório do codesandbox](https://codesandbox.io/s/teste-estagio-template-forked-7vsjk) contendo os desafios de lógica.
 
-<hr/>
+<hr />
 
-Obs: Ainda estou editando este arquivo!
+Made with ♥, by [Thiago Afonso](https://linkedin.com/in/ztaaso) - 2021. (Updating)
