@@ -1,6 +1,8 @@
+const uuidRaw = require('../../util/uuidGenerationRaw');
+
 async function up(knex) {
   return knex.schema.createTable('projects', (table) => {
-    table.uuid('id').primary();
+    table.uuid('id').primary().defaultTo(knex.raw(uuidRaw));
     table.string('name').notNullable();
 
     table.timestamp('created_at').defaultTo(knex.fn.now()).notNullable();

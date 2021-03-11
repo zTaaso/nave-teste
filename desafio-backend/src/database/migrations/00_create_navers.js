@@ -1,7 +1,8 @@
+const uuidRaw = require('../../util/uuidGenerationRaw');
+
 async function up(knex) {
   return knex.schema.createTable('navers', (table) => {
-    // table.increments('id').primary();
-    table.uuid('id').primary();
+    table.uuid('id').primary().defaultTo(knex.raw(uuidRaw));
     table.string('name').notNullable();
     table.string('job_role').notNullable();
     table.date('birthdate').notNullable();
