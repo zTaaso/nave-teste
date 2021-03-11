@@ -6,7 +6,7 @@ class ProjectController {
 
     const projects = await db.table('projects');
 
-    if (!timestamps) {
+    if (!timestamps || !(timestamps === 'true')) {
       projects.forEach((naver) => {
         delete naver.updated_at;
         delete naver.created_at;
@@ -44,7 +44,7 @@ class ProjectController {
 
     project.navers = navers;
 
-    if (!timestamps) {
+    if (!timestamps || !(timestamps === 'true')) {
       delete project.updated_at;
       delete project.created_at;
     }
