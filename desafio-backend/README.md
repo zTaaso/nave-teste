@@ -1,3 +1,4 @@
+
 # 👨🏻‍💻 Desafio Back-end
 
 Aqui você encontra o repositório responsável pelo código do desafio [back-end](https://github.com/naveteam/teste-estagio-2020#desafio-de-back-end) do teste de estágio da [Nave.rs](https://nave.rs)!
@@ -77,29 +78,28 @@ Informações detalhadas de rotas e exemplos de requisições e respostas.
   | :----------- | :-------- | :---------------------------------------------- |
   | `timestamps` | `boolean` | Caso igual a `true`, inclui timestamps ao naver |
 
-  <br/>
+	 <br/>
         
    - Exemplo de resposta:
-  	```json
-    {
-        "id": "da1d9f4e-91d0-4c5e-9671-e3c465e8bdcc",
-        "name": "Thiago Afonso",
-        "job_role": "Estagiário Back-end",
-        "birthdate": 1046314800000,
-        "admission_date": 1616209200000,
-        "created_at": "2021-03-11 02:53:03",
-        "updated_at": "2021-03-11 02:53:03",
-        "projects": [
-          {
-            "id": "179668c1-dbc8-4a84-abb3-3f1ca80ffb35",
-            "name": "Desenvolvimento de API REST",
-            "created_at": "2021-03-11 02:53:03",
-            "updated_at": "2021-03-11 02:53:03"
-          }
-    }
-          
    
-  	```
+	  	```json
+	    {
+	        "id": "da1d9f4e-91d0-4c5e-9671-e3c465e8bdcc",
+	        "name": "Thiago Afonso",
+	        "job_role": "Estagiário Back-end",
+	        "birthdate": 1046314800000,
+	        "admission_date": 1616209200000,
+	        "created_at": "2021-03-11 02:53:03",
+	        "updated_at": "2021-03-11 02:53:03",
+	        "projects": [
+	          {
+	            "id": "179668c1-dbc8-4a84-abb3-3f1ca80ffb35",
+	            "name": "Desenvolvimento de API REST",
+	            "created_at": "2021-03-11 02:53:03",
+	            "updated_at": "2021-03-11 02:53:03"
+	          }
+	    }
+	  	```
 
 - **Store**: Rota de criação de naver
 
