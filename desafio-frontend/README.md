@@ -16,7 +16,7 @@ O layout do figma também pode ser [acessado aqui](https://www.figma.com/file/2q
 ![demonstração.gif](https://github.com/zTaaso/nave-teste/blob/master/desafio-frontend/assets/navers-frontend-demo.gif)
 
 ### Rodar a aplicação
-> **Obs:** _(É preciso ter o node instalado)_
+> _**Obs:** É preciso ter o Node instalado._
 
 Para fazer o site funcionar adequadamente na sua máquina é bem simples:
  
