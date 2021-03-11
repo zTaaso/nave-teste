@@ -1,0 +1,22 @@
+{
+  "name": "desafio-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon -r esm src/server.js",
+    "resetDB": "knex migrate:rollback && knex migrate:latest",
+    "seedDB": "knex seed:run"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "knex": "^0.95.1",
+    "nodemon": "^2.0.7",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "uuid": "^8.3.2"
+  }
+}
