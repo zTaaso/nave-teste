@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon -r esm src/server.js",
+    "setDB": "knex migrate:latest",
     "resetDB": "knex migrate:rollback && knex migrate:latest",
     "seedDB": "knex seed:run"
   },
