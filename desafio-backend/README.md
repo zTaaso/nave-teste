@@ -223,3 +223,7 @@ Informações detalhadas de rotas e exemplos de requisições e respostas.
 		  "updated_at": "2021-03-11 09:03:50"
 	}
 	   ```
+	   
+<hr />
+
+Made with ♥, by [Thiago Afonso](https://linkedin.com/in/ztaaso) - 2021. (Updating)
